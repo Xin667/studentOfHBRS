@@ -1,5 +1,7 @@
 package org.hbrs.se1.ws23.uebung1.control;
 
+import java.util.ArrayList;
+
 public class GermanTranslator implements Translator {
 
 	public String date = "Okt/2023"; // Default-Wert
@@ -7,10 +9,24 @@ public class GermanTranslator implements Translator {
 	/**
 	 * Methode zur Übersetzung einer Zahl in eine String-Repraesentation
 	 */
-	public String translateNumber( int number ) {
+	public String translateNumber(int zahl) {
 		// [ihr Source Code aus Übung 1-2]
-
-		return "null";
+		java.util.List<String> numberList = new ArrayList<>(10);
+		numberList.add("eins");
+		numberList.add("zwei");
+		numberList.add("drei");
+		numberList.add("vier");
+		numberList.add("fünf");
+		numberList.add("sechs");
+		numberList.add("sieben");
+		numberList.add("acht");
+		numberList.add("neun");
+		numberList.add("zehn");
+		try {
+			return numberList.get(zahl - 1);
+		} catch (IndexOutOfBoundsException e) {
+			return "Übersetzung der Zahl " + zahl + " nicht möglich " + "(" + version + ")";
+		}
 	}
 
 	/**
