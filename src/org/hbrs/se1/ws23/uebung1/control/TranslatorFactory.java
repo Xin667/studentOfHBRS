@@ -8,6 +8,8 @@ public class
  */
 TranslatorFactory {
     public static Translator creatGermanTranslator(){
-        return new GermanTranslator();
+        GermanTranslator translator = new GermanTranslator();
+        translator.setDate("5.10.2023");
+        return translator;
     }
 }

@@ -22,10 +22,14 @@ public class GermanTranslator implements Translator {
 		numberList.add("acht");
 		numberList.add("neun");
 		numberList.add("zehn");
+		//String numberArray[] = {...};
+		String result = "";
 		try {
-			return numberList.get(zahl - 1);
+			result = numberList.get(zahl - 1);
 		} catch (IndexOutOfBoundsException e) {
-			return "Übersetzung der Zahl " + zahl + " nicht möglich " + "(" + version + ")";
+			result = "Übersetzung der Zahl " + zahl + " nicht möglich " + "(" + version + ")";
+		} finally {
+			return result;
 		}
 	}
 
