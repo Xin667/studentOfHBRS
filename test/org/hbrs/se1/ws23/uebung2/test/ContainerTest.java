@@ -20,6 +20,7 @@ class ContainerTest {
     Container myContainer = new Container();
     Member m1 = new ConcreteMember(1);
     Member m2 = new ConcreteMember(2);
+    Member m3 = null;
 
     //Test
     //1
@@ -46,5 +47,7 @@ class ContainerTest {
     myContainer.dump();
     //10
     assertEquals(0,myContainer.size());
+
+    //myContainer.deleteMember(null);
   }
 }
