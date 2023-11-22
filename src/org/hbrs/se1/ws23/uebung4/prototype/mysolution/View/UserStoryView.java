@@ -1,6 +1,6 @@
-package org.hbrs.se1.ws23.uebung4.prototype.View;
+package org.hbrs.se1.ws23.uebung4.prototype.mysolution.View;
 
-import org.hbrs.se1.ws23.uebung4.prototype.Model.Container;
+import org.hbrs.se1.ws23.uebung4.prototype.mysolution.Model.Container;
 
 /**
  * @author dwang2s

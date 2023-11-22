@@ -1,6 +1,6 @@
-package org.hbrs.se1.ws23.uebung4.prototype.Controller;
+package org.hbrs.se1.ws23.uebung4.prototype.mysolution.Controller;
 
-import org.hbrs.se1.ws23.uebung4.prototype.Model.Container;
+import org.hbrs.se1.ws23.uebung4.prototype.mysolution.Model.Container;
 
 /**
  * @author dwang2s

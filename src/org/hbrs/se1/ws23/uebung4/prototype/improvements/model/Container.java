@@ -1,7 +1,9 @@
-package org.hbrs.se1.ws23.uebung4.prototype.Model;
 
-import org.hbrs.se1.ws23.uebung4.prototype.Model.Exception.*;
-import org.hbrs.se1.ws23.uebung4.prototype.Model.PSStrategies.PersistenceStrategy;
+
+package org.hbrs.se1.ws23.uebung4.prototype.improvements.model;
+
+import org.hbrs.se1.ws23.uebung4.prototype.mysolution.Model.Exception.PersistenceException;
+import org.hbrs.se1.ws23.uebung4.prototype.mysolution.Model.PSStrategies.PersistenceStrategy;
 
 import java.io.IOException;
 import java.util.*;
@@ -67,6 +69,7 @@ public class Container {
 	}
 	
 	/**
+<<<<<<<< HEAD:src/org/hbrs/se1/ws23/uebung4/prototype/Model/Container.java
 	 * Start-Methoden zum Starten des Programms 
 	 * (hier koennen ggf. weitere Initialisierungsarbeiten gemacht werden spaeter)
 	 */
@@ -196,15 +199,18 @@ public class Container {
 		// Todo: Implementierung Filterung mit Lambda (F5)
 
 	}
-
 	/*
 	 * Methode zum Speichern der Liste. Es wird die komplette Liste
 	 * inklusive ihrer gespeicherten UserStory-Objekte gespeichert.
 	 * 
 	 */
-	private void store() throws IOException, PersistenceException {
+	public void store() throws IOException, PersistenceException {
 		myPersistenceStrategy.save(liste);
 		/*ObjectOutputStream oos = null;
+========
+	public void store() throws ContainerException {
+		ObjectOutputStream oos = null;
+>>>>>>>> alda/main:src/org/hbrs/se1/ws23/uebung4/prototype/improvements/model/Container.java
 		FileOutputStream fos = null;
 
 		fos = new FileOutputStream( Container.LOCATION );
@@ -228,7 +234,7 @@ public class Container {
 	 * @param userStory
 	 * @throws ContainerException
 	 */
-	public void addUserStory ( UserStory userStory ) throws ContainerException {
+	public void addUserStory ( UserStory  userStory ) throws ContainerException {
 		if ( contains(userStory) == true ) {
 			ContainerException ex = new ContainerException("ID bereits vorhanden!");
 			throw ex;

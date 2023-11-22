@@ -1,9 +1,9 @@
-package org.hbrs.se1.ws23.uebung4.prototype.Controller;
+package org.hbrs.se1.ws23.uebung4.prototype.mysolution.Controller;
 
-import org.hbrs.se1.ws23.uebung4.prototype.Model.Container;
-import org.hbrs.se1.ws23.uebung4.prototype.Model.Exception.ContainerException;
-import org.hbrs.se1.ws23.uebung4.prototype.Model.UserStory;
-import org.hbrs.se1.ws23.uebung4.prototype.View.UserStoryView;
+import org.hbrs.se1.ws23.uebung4.prototype.mysolution.Model.Container;
+import org.hbrs.se1.ws23.uebung4.prototype.mysolution.Model.Exception.ContainerException;
+import org.hbrs.se1.ws23.uebung4.prototype.mysolution.Model.UserStory;
+import org.hbrs.se1.ws23.uebung4.prototype.mysolution.View.UserStoryView;
 
 import java.util.List;
 

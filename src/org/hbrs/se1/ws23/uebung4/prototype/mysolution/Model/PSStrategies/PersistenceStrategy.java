@@ -1,6 +1,6 @@
-package org.hbrs.se1.ws23.uebung4.prototype.Model.PSStrategies;
+package org.hbrs.se1.ws23.uebung4.prototype.mysolution.Model.PSStrategies;
 
-import org.hbrs.se1.ws23.uebung4.prototype.Model.Exception.PersistenceException;
+import org.hbrs.se1.ws23.uebung4.prototype.mysolution.Model.Exception.PersistenceException;
 
 import java.util.List;
 

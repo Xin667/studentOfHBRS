@@ -1,4 +1,4 @@
-package org.hbrs.se1.ws23.uebung4.prototype.Model;
+package org.hbrs.se1.ws23.uebung4.prototype.mysolution.Model;
 
 import java.io.Serializable;
 

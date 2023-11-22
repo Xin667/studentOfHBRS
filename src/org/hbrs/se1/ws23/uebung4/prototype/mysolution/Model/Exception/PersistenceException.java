@@ -1,4 +1,4 @@
-package org.hbrs.se1.ws23.uebung4.prototype.Model.Exception;
+package org.hbrs.se1.ws23.uebung4.prototype.mysolution.Model.Exception;
 
 public class PersistenceException extends Exception {
 
