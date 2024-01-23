@@ -6,6 +6,6 @@ package org.hbrs.se1.ws23.uebung8_4.Subcriber;
 public class SkillConsumer implements Subcriber{
     @Override
     public String update(Integer id, String topic) {
-        return
+        return null;
     }
 }

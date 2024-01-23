@@ -23,4 +23,9 @@ public class SkillReport extends Report{
     public String getStudentID() {
         return studentID;
     }
+
+    @Override
+    public String update(Integer id, String topic) {
+        return null;
+    }
 }
