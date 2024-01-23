@@ -1,6 +1,5 @@
 package org.hbrs.se1.ws23.uebung4.prototype.mysolution.Model;
 
-import org.hbrs.se1.ws23.uebung4.prototype.Model.Exception.*;
 import org.hbrs.se1.ws23.uebung4.prototype.mysolution.Model.Exception.PersistenceException;
 import org.hbrs.se1.ws23.uebung4.prototype.mysolution.Model.PSStrategies.PersistenceStrategy;
 
