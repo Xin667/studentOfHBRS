@@ -176,4 +176,7 @@ public class Container {
 		return null;
 	}
 
+	public String deleteUserStory(Integer id) {
+		return null;
+	}
 }
